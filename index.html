@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>./JavierTupapiTixe --portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="crt-glow"></div>
+
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+            </div>
+            <div class="terminal-title">root@portfolio: ~</div>
+        </div>
+
+        <main class="terminal-body">
+            <section id="portada">
+                <div id="boot-sequence">
+<p data-text=">  Booting system...">&gt; Booting system...</p>
+<p data-text="> Loading kernel modules... [OK]">&gt; Loading kernel modules ... [OK]</p>
+<p data-text="> Establishing connection to Mushroom Kingdom...">&gt; Establishing connection to Mushroom Kingdom</p>
+<p data-text=">  Access granted.">&gt; Access granted</p>
+<p data-text="> WELCOME, JAVIER MONTATIXE">&gt; Welcome, Javier Montatixe</p>
+                </div>
+                <nav id="main-nav">
+                    <h2>SELECT YOUR PROFILE:</h2>
+                    <a href="#programacion" class="nav-link" data-target="programacion-content">> ./programacion</a>
+                    <a href="#ciberseguridad" class="nav-link" data-target="ciberseguridad-content">> ./ciberseguridad</a>
+                    <a href="#docencia" class="nav-link" data-target="docencia-content">> ./docencia</a>
+                </nav>
+            </section>
+
+            <!-- Programación -->
+            <div id="programacion-content" class="profile-content">
+                <h2 class="glitch" data-text="PERFIL: PROGRAMACIÓN">PERFIL: PROGRAMACIÓN</h2>
+                <section>
+                    <h3>Proyectos</h3>
+                    <div class="project-item">
+                        <p><span class="icon">&#128187;</span> <strong>CustomTee 3D:</strong> Plataforma web para personalización de camisetas con motor 3D, control de roles y funciones premium. <a href="#">[ver código]</a></p>
+                    </div>
+                    <div class="project-item">
+                        <p><span class="icon">&#128187;</span> <strong>TradingBot Elliott-Fibo:</strong> Sistema automatizado en MQL5 y Python para XAUUSD y NAS100 con gestión de riesgo y backtesting. <a href="#">[ver código]</a></p>
+                    </div>
+                </section>
+                <section>
+                    <h3>Habilidades Técnicas</h3>
+                     <p><span class="icon">&#11088;</span> JavaScript, Python, Node.js, React, SQL, Docker, SwiftUI, Arduino, APIs REST, Git.</p>
+                </section>
+                 <section>
+                    <h3>Experiencia y Logros</h3>
+                    <p><span class="icon">&#127942;</span> Desarrollo de sistemas web, bots de trading y apps educativas. Integración de IA y simulaciones interactivas.</p>
+                </section>
+                <section>
+                    <h3>Blog/Artículos</h3>
+                    <p><span class="icon">&#128221;</span> "Cómo diseñar un personalizador 3D para e-commerce". <a href="#">[leer]</a></p>
+                </section>
+            </div>
+
+            <!-- Ciberseguridad -->
+            <div id="ciberseguridad-content" class="profile-content">
+                 <h2 class="glitch" data-text="PERFIL: CIBERSEGURIDAD">PERFIL: CIBERSEGURIDAD</h2>
+                 <section>
+                    <h3>Proyectos y Labs</h3>
+                    <p><span class="icon">&#128272;</span> Auditorías de seguridad, pruebas de penetración y análisis forense en entornos controlados (TryHackMe, HackTheBox).</p>
+                </section>
+                <section>
+                    <h3>Habilidades</h3>
+                     <p><span class="icon">&#11088;</span> Pentesting, Análisis Forense, Hardening de Sistemas, Metasploit, Wireshark, Seguridad en la nube (Google Cloud).</p>
+                </section>
+                 <section>
+                    <h3>Certificaciones y Formación</h3>
+                    <p><span class="icon">&#127942;</span> Google Cloud Skills Boost, formación en CEH y OSCP, Cisco Networking.</p>
+                </section>
+                <section>
+                    <h3>Publicaciones</h3>
+                    <p><span class="icon">&#128221;</span> "Estrategias para mitigar ataques en entornos híbridos". <a href="#">[leer]</a></p>
+                </section>
+            </div>
+            
+            <!-- Docencia -->
+            <div id="docencia-content" class="profile-content">
+                <h2 class="glitch" data-text="PERFIL: DOCENCIA">PERFIL: DOCENCIA</h2>
+                <section>
+                    <h3>Perfil Docente</h3>
+                    <p><span class="icon">&#127891;</span> Docente apasionado por la enseñanza de programación, electrónica y ciberseguridad, aplicando metodologías activas, aprendizaje basado en proyectos y herramientas digitales.</p>
+                </section>
+                <section>
+                    <h3>Experiencia Educativa</h3>
+                     <p><span class="icon">&#127942;</span> Clases en niveles de Básica Superior y Educación Media. Diseño de laboratorios interactivos con Arduino y TinkerCAD. Creación de material didáctico adaptado a DUA.</p>
+                </section>
+                 <section>
+                    <h3>Artículos Educativos</h3>
+                    <p><span class="icon">&#128221;</span> "Metodologías activas en la enseñanza de la ciberseguridad". <a href="#">[leer]</a></p>
+                </section>
+            </div>
+
+            <!-- Contacto -->
+            <section id="contacto" class="shared-content">
+                <h2 class="glitch" data-text="CONTACTO">CONTACTO</h2>
+                <form id="contact-form">
+                    <label for="name">> USERNAME:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">> EMAIL:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">> MESSAGE:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit" class="btn">> SEND_MESSAGE</button>
+                </form>
+            </section>
+            
+            <div id="console-prompt" class="shared-content">
+                <a href="#">&lt; Go Back</a>
+                <span>root@portfolio:~/<span id="current-dir"></span># </span><span class="cursor">_</span>
+            </div>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
